@@ -153,6 +153,10 @@ header.site.scrolled{border-bottom-color:var(--line)}
 .book3d img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:3px 8px 8px 3px;box-shadow:24px 30px 50px -18px rgba(59,26,51,.55),4px 6px 14px rgba(59,26,51,.18)}
 .book3d .spine{position:absolute;inset:0;border-radius:3px 8px 8px 3px;background:linear-gradient(90deg,rgba(0,0,0,.38) 0,rgba(255,255,255,.22) 1.6%,rgba(0,0,0,.12) 3.2%,transparent 7%),linear-gradient(115deg,rgba(255,255,255,.18),transparent 40%);pointer-events:none}
 .book3d .pages{position:absolute;top:1.2%;bottom:1.2%;right:-14px;width:16px;border-radius:0 4px 4px 0;background:repeating-linear-gradient(90deg,#fff 0 2px,#EDE4E1 2px 3px);transform:rotateY(70deg);transform-origin:left;box-shadow:inset -2px 0 4px rgba(0,0,0,.12)}
+.book-cta{position:relative;z-index:2;margin-top:22px;width:min(100%,360px);background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;box-shadow:var(--shadow);display:grid;gap:14px;text-align:left}
+.book-cta h3{font-size:1.08rem}
+.book-cta p{color:var(--soft);font-size:.95rem}
+.book-cta .actions{margin:0;gap:10px}
 .showcase .meta-row{display:flex;gap:22px;flex-wrap:wrap;color:var(--soft);font-weight:700;font-size:.95rem}
 .showcase .meta-row span{display:flex;gap:8px;align-items:center}
 .showcase .meta-row span::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--petal)}
@@ -427,6 +431,11 @@ footer nav a:hover{color:var(--petal)}
 <div class="showcase">
 <div class="mockup">
 <div class="book3d"><img data-cover-img="after-us" alt="Front cover of After Us: Finding Yourself After the Man Who Broke the Marriage"><span class="spine"></span><span class="pages"></span></div>
+<div class="book-cta">
+<h3>Need support after the last page?</h3>
+<p>Use the guided tool to find the next legal, money or emotional step that fits your situation.</p>
+<div class="actions"><a class="btn btn-soft btn-sm" href="#path">Find your path</a><a class="btn btn-line btn-sm" href="#contact">Talk to someone</a></div>
+</div>
 </div>
 <div style="display:grid;gap:18px">
 <span class="badge">From our bookshop</span>
@@ -647,6 +656,11 @@ footer nav a:hover{color:var(--petal)}
 <div class="showcase" style="margin-bottom:72px">
 <div class="mockup">
 <div class="book3d"><img data-cover-img="after-us" alt="Front cover of After Us: Finding Yourself After the Man Who Broke the Marriage"><span class="spine"></span><span class="pages"></span></div>
+<div class="book-cta">
+<h3>Need support after the last page?</h3>
+<p>Use the guided tool to find the next legal, money or emotional step that fits your situation.</p>
+<div class="actions"><a class="btn btn-soft btn-sm" href="#path">Find your path</a><a class="btn btn-line btn-sm" href="#contact">Talk to someone</a></div>
+</div>
 </div>
 <div style="display:grid;gap:18px">
 <span class="badge">Featured book</span>
